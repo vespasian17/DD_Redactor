@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d385a4bbbaf584287b0fef0f57f521, type: 3}
+  m_Name: CharactersSetup
+  m_EditorClassIdentifier: 
+  allies:
+  - characterPrefab: {fileID: 2048791325202492823, guid: b6da836b05157df419ba84f9c692b409,
+      type: 3}
+    baseInitiative: 1
+    baseHealth: 20
+    maxHealth: 20
+  - characterPrefab: {fileID: 3401962420062204733, guid: f746a9394cd5760448d238929593e852,
+      type: 3}
+    baseInitiative: 2
+    baseHealth: 23
+    maxHealth: 23
+  - characterPrefab: {fileID: 3565576135135504194, guid: 03e3d5ad9371e504482bc49a4a428890,
+      type: 3}
+    baseInitiative: 3
+    baseHealth: 21
+    maxHealth: 21
+  - characterPrefab: {fileID: 3997319299777779725, guid: 5fd3735a28617ae4b9f5e5a9cf502781,
+      type: 3}
+    baseInitiative: 4
+    baseHealth: 25
+    maxHealth: 25
+  enemies:
+  - characterPrefab: {fileID: 1036057245733995791, guid: 992fdafdf033590408d28702b68951dc,
+      type: 3}
+    baseInitiative: 0
+    baseHealth: 25
+    maxHealth: 25
+  - characterPrefab: {fileID: 1036057245733995791, guid: 992fdafdf033590408d28702b68951dc,
+      type: 3}
+    baseInitiative: 0
+    baseHealth: 30
+    maxHealth: 30
+  - characterPrefab: {fileID: 1036057245733995791, guid: 992fdafdf033590408d28702b68951dc,
+      type: 3}
+    baseInitiative: 0
+    baseHealth: 20
+    maxHealth: 20
+  - characterPrefab: {fileID: 1036057245733995791, guid: 992fdafdf033590408d28702b68951dc,
+      type: 3}
+    baseInitiative: 0
+    baseHealth: 15
+    maxHealth: 15
